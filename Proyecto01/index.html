@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title>KOPPEE - Coffee Shop HTML Template</title>
+    <title>BIORECYCLE</title>
+    <link rel="icon" href="./img/Mesa de trabajo 1.png" type="image/x-icon">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free Website Template" name="keywords">
     <meta content="Free Website Template" name="description">
@@ -22,6 +23,26 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        .animated-image {
+    animation-name: animateImage; /* Nombre de la animación */
+    animation-duration: 3s; /* Duración de la animación */
+    animation-timing-function: ease-in-out; /* Función de temporización */
+    animation-iteration-count: infinite; /* Repetir infinitamente */
+}
+
+@keyframes animateImage {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+    </style>
 </head>
 
 <body>
@@ -86,7 +107,7 @@
     </div>
     <!-- Carousel End -->
     <!-- About Start -->
-<div class="container-fluid py-5">
+<div class="container-fluid py-2">
     <div class="container">
         <div class="section-title">
             <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h4>
@@ -95,24 +116,24 @@
         <div class="row">
             <div class="col-lg-4 py-0 py-lg-5">
                 <h1 class="mb-3">Our Story</h1>
-                <h5 class="mb-3">Bienvenidos a ECO RECYCLE, una empresa comprometida con la preservación del medio ambiente y el impulso de prácticas empresariales responsables. En un mundo cada vez más consciente de los desafíos ambientales, EcoVida se destaca como un líder visionario en la búsqueda de soluciones sostenibles.</h5>
-                <p>Takimata sed vero vero no sit sed, justo clita duo no duo amet et, nonumy kasd sed dolor eos diam lorem eirmod. Amet sit amet amet no. Est nonumy sed labore eirmod sit magna. Erat at est justo sit ut. Labor diam sed ipsum et eirmod</p>
-                <a href="" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                <h6 class="mb-3">Bienvenidos a ECO RECYCLE, una empresa comprometida con la preservación del medio ambiente y el impulso de prácticas empresariales responsables. En un mundo cada vez más consciente de los desafíos ambientales, EcoVida se destaca como un líder visionario en la búsqueda de soluciones sostenibles.</h6>
+                <p>Nuestro enfoque va más allá de la mera cumplimentación de regulaciones medioambientales; nos esforzamos por marcar la diferencia, adoptando medidas proactivas para minimizar nuestro impacto en el planeta. Desde la elección de materiales ecológicos en la producción hasta la implementación de estrategias de reciclaje y eficiencia energética, EcoVida busca ser un modelo a seguir en la promoción de prácticas comerciales respetuosas con el entorno. </p>
             </div>
-            <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
-                <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100" src="img/about.png" style="object-fit: cover;">
+            <div class="col-lg-4 py-5 py-lg-0 position-relative" style="min-height: 500px;">
+                <div class="position-absolute w-100 h-100 d-flex justify-content-center align-items-center">
+                    <img class="animated-image" src="img/Mesa de trabajo 1 copia.png" style="object-fit: cover; margin-bottom:20%; max-width: 99%; max-height: 99%">
+                    <br>
                 </div>
             </div>
             <div class="col-lg-4 py-0 py-lg-5">
                 <h1 class="mb-3">Our Vision</h1>
-                <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
-                <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                <a href="" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                <p>Nos enorgullece ofrecer productos y servicios que no solo cumplen con los estándares de calidad más altos, sino que también respaldan la causa medioambiental. En EcoVida Sostenible, creemos que el éxito empresarial y la responsabilidad ambiental pueden coexistir armoniosamente. ¡Únete a nosotros en el viaje hacia un futuro más sostenible y verde! <br>Los servicios que estamos dispuestos a ofrecer son los siguientes: </p>
+                <h6 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>AREA DE RESIDUOS SOLIDOS</h6>
+                <h6 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>AREA DE MINERIA</h6>
+                <h6 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>AREA DE SANEAMIENTO AMBIENTA</h6>
             </div>
         </div>
+        
     </div>
 </div>
 <!-- About End -->
